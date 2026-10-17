@@ -32,10 +32,10 @@ I used Claude Code for this task. I used to understand methods
 
 | candidate | annual cost |
 |---|---|
-| A, k=3 | |
-| A, k=5 | |
-| B, k=3 | |
-| B, k=5 | |
+| A, k=3 |23240 |yes
+| A, k=5 |30512 |no
+| B, k=3 |15423 |yes
+| B, k=5 |17484 |no
 
 ### 1d. Decision (at most 150 words)
 
