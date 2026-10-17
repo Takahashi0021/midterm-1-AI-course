@@ -9,8 +9,7 @@ Fingerprint:1f43b5c7
 
 ## AI-use declaration
 
-(About half a page: which assistants or tools you used and for what. If you used none, say so.)
-
+I used Claude Code for this task. I used to understand methods
 ## Part 1: Retrieval and cost decision
 
 ### 1a. Metrics (all 60 questions)
