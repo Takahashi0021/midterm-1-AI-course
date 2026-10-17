@@ -71,8 +71,8 @@ Why (at most 40 words): Output tokens cost five times more than input tokens. En
 
 ### Q2
 
-Number:
-Why (at most 40 words):
+Number: 35.1
+Why (at most 40 words): Only English is cut: 768 cl100k tokens become about 789 e5 tokens, above 512. RU (384) and KK (228) fit. The tail is silently truncated, so the embedding never represents it.
 
 ### Q3
 
