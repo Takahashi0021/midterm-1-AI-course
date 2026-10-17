@@ -23,10 +23,10 @@ I used Claude Code for this task. I used to understand methods
 
 | candidate | recall@k | lower | upper |
 |---|---|---|---|
-| A, k=3 | | | |
-| A, k=5 | | | |
-| B, k=3 | | | |
-| B, k=5 | | | |
+| A, k=3 |0.467 |0.346 |0.591 |
+| A, k=5 |0.550 |0.425 |0.669 |
+| B, k=3 |0.533 |0.409 |0.654 |
+| B, k=5 |0.833 |0.720 |0.907 |
 
 ### 1c. Annual model cost in USD
 
