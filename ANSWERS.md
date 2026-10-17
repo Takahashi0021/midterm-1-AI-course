@@ -55,7 +55,13 @@ I used Claude Code for this task. I used to understand methods
 Personal-data pages per year sent abroad under H:
 273750
 ### 2b. Memo (at most 300 words)
+Who is served worst. Under both pipelines it is Kazakh scans in poor condition. H gets 23/30 right (0.767, interval 0.591 to 0.882); L gets 22/30 (0.733, 0.556 to 0.858). The overall figures (H 0.894, L 0.850) hide this: about one in four degraded Kazakh invoices fails. With only 30 scans per cell we are not sure: the intervals overlap, so H is not shown to be better than L in that cell.
 
+Personal data. 15 % of pages carry a name and ИИН, which Law No. 94-V covers. Under H that is 273,750 pages a year. The three questions for H: where does the scan go (a data centre abroad: known); who stores it (the vendor: unknown); for how long (unknown). We would have to find out the vendor's retention and the legal basis for transfer; a vendor's statement is not a compliance review. For L: the scan goes to our own server in Kazakhstan (known), we store it (known), and we must set the retention period ourselves.
+
+Safeguards anyone can verify: (1) network logs show no outbound traffic from the L server; (2) a written retention period with an automatic deletion job and a monthly deletion report; (3) an access list for the server, reviewed quarterly; (4) every Kazakh degraded scan, and any page with low confidence, goes to a human check; (5) a quarterly retest with at least 100 scans per cell.
+
+Choice. L is $382 a year cheaper, keeps personal data in the country, and its accuracy gap to H is not shown by our data. Remaining risk: about one in four degraded Kazakh invoices may be wrong, and we now own server security and retention. The human check covers the first; the safeguards cover the second.
 ## Part 3: Explain your own numbers
 
 ### Q1
