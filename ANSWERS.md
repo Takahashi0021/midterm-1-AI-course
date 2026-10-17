@@ -39,9 +39,7 @@ I used Claude Code for this task. I used to understand methods
 
 ### 1d. Decision (at most 150 words)
 
-Chosen candidate:
-
-(Decision, using your intervals and the budget. Give the recall of your choice for EN, RU and KK separately.)
+(A, 5) costs $30,512, above the $26,900 budget, so it is out. The other three fit. (B, 5) has recall 0.833 [0.720, 0.907]; the upper limits of (A, 3) [0.346, 0.591] and (B, 3) [0.409, 0.654] lie below its lower limit, so (B, 5) is better than both. It is also the second cheapest ($17,484). Recall of (B, 5) per language (20 questions each): EN 0.90 (18/20), RU 0.80 (16/20), KK 0.80 (16/20). RU and KK users are served worst. With 20 questions per language the intervals are wide (about 0.58 to 0.92 for RU and KK), so the gap to EN is not shown. Still, about one in five RU or KK questions gets no correct chunk in the top 5, so those answers need monitoring.
 
 ### 1e. Next measurement (at most 60 words)
 
