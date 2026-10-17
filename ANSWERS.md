@@ -80,8 +80,8 @@ Number: 75.0
 Why (at most 40 words): Top-p keeps the smallest set of tokens reaching 0.95 (Monday, Friday, Sunday) and drops the rest, then renormalises. Lower temperature instead reshapes all probabilities and drops nothing.
 ### Q4
 
-Number:
-Why (at most 40 words):
+Number: 25
+Why (at most 40 words): The public leaderboard prefers X (72 against 67), because "I don't know" scores zero. That teaches models to guess rather than abstain. With the penalty, Y wins (41 against 16).
 
 ### Q5
 
