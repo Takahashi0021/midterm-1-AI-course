@@ -51,11 +51,11 @@ Chosen candidate:
 
 | pipeline | overall accuracy | weakest cell (language, condition) | accuracy there | lower | upper | annual cost |
 |---|---|---|---|---|---|---|
-| H | | | | | | |
-| L | | | | | | |
+| H |0.894 |KK,degraded |0.767 |0.591 |0.882 |14782,5 |
+| L |0.850 |KK,degraded |0.733 |0.556 |0.858 |14400 |
 
 Personal-data pages per year sent abroad under H:
-
+273750
 ### 2b. Memo (at most 300 words)
 
 ## Part 3: Explain your own numbers
