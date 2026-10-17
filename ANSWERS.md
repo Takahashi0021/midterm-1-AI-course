@@ -76,9 +76,8 @@ Why (at most 40 words): Only English is cut: 768 cl100k tokens become about 789 
 
 ### Q3
 
-Number:
-Why (at most 40 words):
-
+Number: 75.0
+Why (at most 40 words): Top-p keeps the smallest set of tokens reaching 0.95 (Monday, Friday, Sunday) and drops the rest, then renormalises. Lower temperature instead reshapes all probabilities and drops nothing.
 ### Q4
 
 Number:
