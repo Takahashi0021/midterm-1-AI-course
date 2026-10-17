@@ -66,8 +66,8 @@ Choice. L is $382 a year cheaper, keeps personal data in the country, and its ac
 
 ### Q1
 
-Number:
-Why (at most 40 words):
+Number: 2.24
+Why (at most 40 words): Output tokens cost five times more than input tokens. English has a larger output share of its bill than Kazakh, so Kazakh's cost grows slower (2.24) than its token count (2.62).
 
 ### Q2
 
