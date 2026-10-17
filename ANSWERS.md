@@ -16,8 +16,8 @@ I used Claude Code for this task. I used to understand methods
 
 | config | recall@1 | recall@3 | recall@5 | MRR@10 |
 |---|---|---|---|---|
-| A | | | | |
-| B | | | | |
+| A |0.350|0.467|0.550|0.414|
+| B |0.333|0.533|0.833|0.490|
 
 ### 1b. Recall and 95 % Wilson interval of each candidate (recall at its own k)
 
